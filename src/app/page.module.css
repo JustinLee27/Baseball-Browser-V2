@@ -1,0 +1,79 @@
+.navbar {
+  background-color: black;
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a, .navbar span {
+  font-family: Andale Mono, monospace;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer; /* Ensure the span element looks clickable */
+}
+
+.left {
+  margin-left: 150px;
+}
+
+.middle {
+  margin-left: 150px;
+}
+
+.right {
+  margin-left: 150px;
+}
+
+.sleft {
+  margin-right: 150px;
+}
+
+/* Ensure proper spacing between list items */
+.navbar li {
+  list-style: none;
+  display: inline;
+  margin: 0 15px;
+}
+
+/* Hover effect for both a and span elements */
+.navbar a:hover, .navbar span:hover {
+  color: blue;
+}
+
+.navbar ul {
+  padding: 0;
+}
+
+/* For the select box */
+.select {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 60vh;
+}
+
+.select select {
+  font-size: 15px; /* Increase font size */
+  padding: 5px;   /* Add padding */
+  width: 200px;    /* Set a specific width */
+}
+
+.option {
+  font-family: Andale Mono, monospace;
+}
+
+/* Background image styling */
+.background {
+  background-image: url(https://image.cnbcfm.com/api/v1/image/106953819-16336054552021-10-07t085303z_1992726786_16904191_rtrmadp_0_baseball-mlb-lad-stl.jpeg?v=1638428847&w=1920&h=1080);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
